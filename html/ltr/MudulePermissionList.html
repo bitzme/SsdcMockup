@@ -159,11 +159,10 @@
                         </li>
                         <li class="nav-small-cap"><i class="mdi mdi-dots-horizontal"></i> <h3 class="hide-menu">ระบบ</h3></li>
                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="UserList.html" aria-expanded="false"><i class="mdi mdi-account"></i><span class="hide-menu">การจัดการผู้ใช้</span></a></li>
-                       <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="PermissionList.html" aria-expanded="false"><i class="mdi mdi-account-network"></i><span class="hide-menu">การจัดการสิทธิ์อนุมัติ</span></a></li>
                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="CategoryList.html" aria-expanded="false"><i class="mdi mdi-apps"></i><span class="hide-menu">การจัดการหมวดหมู่ </span></a></li>
                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="ModuleList.html" aria-expanded="false"><i class="mdi mdi-arrange-bring-forward"></i><span class="hide-menu">การจัดการโมดูล</span></a></li>
                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="PermissionList.html" aria-expanded="false"><i class="mdi mdi-account-convert"></i><span class="hide-menu">การจัดการสิทธิ์</span></a></li>
-                       <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="MudulePermissionList.html" aria-expanded="false"><i class="mdi mdi-arrow-up-bold-circle"></i><span class="hide-menu">การจัดการกลุ่มสิทธิ์์</span></a></li>
+                       
                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="SafetyRouteDocList.html" aria-expanded="false"><i class="mdi mdi-menu"></i><span class="hide-menu">การจัดการผู้อนุมัติเอกสาร</span></a></li>
                        <li class="nav-small-cap"><i class="mdi mdi-dots-horizontal"></i> <h3 class="hide-menu">ระบบความเสี่ยง</h3></li>
                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="SurveillityList.html" aria-expanded="false"><i class="mdi mdi-arrow-up-bold-circle"></i><span class="hide-menu">การจัดการอัตราการสำรวจ</span></a></li>
@@ -198,6 +197,7 @@
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="#">หน้าแรก</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page"><a href="PermissionList.html">การจัดการสิทธิ์</a></li>
                                     <li class="breadcrumb-item active" aria-current="page">การจัดการกลุ่มสิทธิ</li>
                                 </ol>
                             </nav>
@@ -221,10 +221,10 @@
                         <div class="card">
                             <div class="card-content">
                             <div class="card-body">
-                                <h3 class="text-success"> การจัดการกลุ่มสิทธิ</h3>
+                                <h3 class="text-success"> การจัดการโมดูลในกลุ่มสิทธิ์</h3>
                                 <div class="row">
                                     <div class="col-md-6 col-sm-12">
-                                        <h5 class="my-1">กลุ่มผู้ใช้</h5>
+                                        <h5 class="my-1">กลุ่มสิทธิ์ Admin</h5>
                                         <div class="alert alert-success mt-1 p-1">
                                             <h4 class="success"><i class="fa fa-smile-o" style="color:green; font-size:50px;" alt="avatar"></i> Handle <i class="fa fa-smile-o" style="color:green; font-size:50px;" alt="avatar"></i></h4>
                                         </div>
@@ -236,11 +236,10 @@
                                                             <tr>
 
                                                                 <th>
-                                                                    รหัสผู้ใช้
+                                                                    ชื่อโมดูล
                                                                 </th>
-                                                                <th>Image</th>
                                                                 <th>
-                                                                    ชื่อ - นามสกุล
+                                                                    รายละเอียด
                                                                 </th>
                                                                 <th>
                                                                     Action
@@ -252,13 +251,11 @@
 
                                                                     <tr class="table-success">
                                                                         <td>
-                                                                            Kamoltip.w
+                                                                            M1
                                                                         </td>
-                                                                        <td><img class="round" src="../../assets/images/logo-icon.png" asp-append-version="true" alt="avatar" height="40" width="40" /></td>
-
-
+                                                                        
                                                                         <td>
-                                                                            กมลทิพย์ เวียงวิเศษ
+                                                                            การจัดการผู้ใช้งาน
                                                                         </td>
                                                                         
                                                                         <td>
@@ -274,7 +271,7 @@
 
                                     </div>
                                     <div class="col-md-6 col-sm-12">
-                                        <h5 class="my-1">ผู้ใช้</h5>
+                                        <h5 class="my-1">ชื่อโมดูล</h5>
                                         <div class="alert alert-danger mt-1 p-1">
                                             <h4 class="warning"><i class="fa fa-frown-o" style="color:red; font-size:50px;" alt="avatar"></i> Unhandle !! <i class="fa fa-frown-o" style="color:red; font-size:50px;" alt="avatar"></i></h4>
                                         </div>
@@ -286,11 +283,10 @@
                                                             <tr>
 
                                                                 <th>
-                                                                    รหัสผู้ใช้
+                                                                    ชื่อโมดูล
                                                                 </th>
-                                                                <th>Image</th>
                                                                 <th>
-                                                                    ชื่อ - นามสกุล
+                                                                    รายละเอียด
                                                                 </th>
                                                                 <th>
                                                                     Edit tool
@@ -301,12 +297,11 @@
                                                         
                                                                     <tr>
                                                                         <td>
-                                                                            Atitya.p
+                                                                            M2
                                                                         </td>
-                                                                        <td><img class="round" src="../../assets/images/logo-icon.png" asp-append-version="true" alt="avatar" height="40" width="40" /></td>
-
+                                                                        
                                                                         <td>
-                                                                            อาทิตยา โพธิ์ทอง
+                                                                            การจัดการโมดูล
                                                                         </td>
                                                                         
                                                                         <td>
@@ -316,12 +311,11 @@
 
                                                                     <tr>
                                                                         <td>
-                                                                            Thanchanok.t
+                                                                            M3
                                                                         </td>
-                                                                        <td><img class="round" src="../../assets/images/logo-icon.png" asp-append-version="true" alt="avatar" height="40" width="40" /></td>
-
+                                                                        
                                                                         <td>
-                                                                            ธัญชนก ทองมาก
+                                                                            การแจ้งเตือนความปลอดภัย
                                                                         </td>
                                                                         
                                                                         <td>
