@@ -131,7 +131,7 @@
         <!-- ============================================================== -->
         <!-- Left Sidebar - style you can find in sidebar.scss  -->
         <!-- ============================================================== -->
-     <aside class="left-sidebar">
+        <aside class="left-sidebar">
             <!-- Sidebar scroll-->
             <div class="scroll-sidebar">
                 <!-- Sidebar navigation-->
@@ -160,11 +160,10 @@
                         </li>
                         <li class="nav-small-cap"><i class="mdi mdi-dots-horizontal"></i> <h3 class="hide-menu">ระบบ</h3></li>
                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="UserList.html" aria-expanded="false"><i class="mdi mdi-account"></i><span class="hide-menu">การจัดการผู้ใช้</span></a></li>
-                       <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="PermissionList.html" aria-expanded="false"><i class="mdi mdi-account-network"></i><span class="hide-menu">การจัดการสิทธิ์อนุมัติ</span></a></li>
                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="CategoryList.html" aria-expanded="false"><i class="mdi mdi-apps"></i><span class="hide-menu">การจัดการหมวดหมู่ </span></a></li>
                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="ModuleList.html" aria-expanded="false"><i class="mdi mdi-arrange-bring-forward"></i><span class="hide-menu">การจัดการโมดูล</span></a></li>
                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="PermissionList.html" aria-expanded="false"><i class="mdi mdi-account-convert"></i><span class="hide-menu">การจัดการสิทธิ์</span></a></li>
-                       <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="MudulePermissionList.html" aria-expanded="false"><i class="mdi mdi-arrow-up-bold-circle"></i><span class="hide-menu">การจัดการกลุ่มสิทธิ์์</span></a></li>
+                       
                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="SafetyRouteDocList.html" aria-expanded="false"><i class="mdi mdi-menu"></i><span class="hide-menu">การจัดการผู้อนุมัติเอกสาร</span></a></li>
                        <li class="nav-small-cap"><i class="mdi mdi-dots-horizontal"></i> <h3 class="hide-menu">ระบบความเสี่ยง</h3></li>
                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="SurveillityList.html" aria-expanded="false"><i class="mdi mdi-arrow-up-bold-circle"></i><span class="hide-menu">การจัดการอัตราการสำรวจ</span></a></li>
@@ -251,13 +250,40 @@
                                         </thead>
                                         <tbody>
                                             <tr>
+                                                <td>Thanaporn.p</td>
+                                                <td>ธนะพร ปิ่นสากล</td>
+                                                <td>Thanaporn.p@gmail.com</td>
+                                                <td>กระทรวง</td>
+                                                <td></td>
+                                                <td>Ministry</td>
+                                                <td>กระทรวง</td>
+                                                <td>
+                                                    <div class="form-group">
+                                                <div class="custom-control custom-switch">
+                                  <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                                  <label class="custom-control-label" for="customSwitch1"></label>
+                                            </div>
+                                                </td>
+                                                <td>15/03/2021</td>
+                                                <td>Admin</td>
+                                                <td>15/03/2021</td>
+                                                <td>Admin</td>
+                                                <td ><a data-toggle="tooltip" data-placement="top" title="แก้ไข"><i class="fas fa-eye " style="color: blue; font-size:25px;" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo"></i></a>
+                                                </td>
+                                                <td>
+                                                  <a href="UserEdit.html"   data-toggle="tooltip" data-placement="top" title="แก้ไข"><i class="mdi mdi-account-edit" style="color: blue; font-size:20px;"></i></a>|
+                                                  <a href="UserDetail.html" data-toggle="tooltip" data-placement="top" title="รายละเอียด"><i class="mdi mdi-menu" style="color:darkcyan; font-size:20px;"></i></a> |
+                                                  <a href="UserDelete.html"data-toggle="tooltip" data-placement="top" title="ลบ"><i class="mdi mdi-delete-forever"style="color:red; font-size:20px;"></i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
                                                 <td>Kamolthip.w</td>
                                                 <td>กมลทิพย์ เวียงวิเศษ</td>
                                                 <td>Kamolthip.w@gmail.com</td>
-                                                <td>Approval</td>
+                                                <td>Owner Area</td>
                                                 <td></td>
-                                                <td>ผู้อำนวยการ</td>
-                                                <td>ผู้อำนวยการโรงเรียน</td>
+                                                <td>OwnerArea</td>
+                                                <td>ผู้ดูแลพื้นที่</td>
                                                 <td>
                                                     <div class="form-group">
                                                 <div class="custom-control custom-switch">
@@ -281,10 +307,10 @@
                                                 <td>Atitaya.p</td>
                                                 <td>อาทิตยา โพธิ์ทอง</td>
                                                 <td>Atitaya.p@gmail.com</td>
-                                                <td>Super User</td>
+                                                <td>ผู้อำนวยการโรงเรียน</td>
                                                 <td></td>
-                                                <td>กระทรวง</td>
-                                                <td>กระทรวงศึกษาธิการ</td>
+                                                <td>Director</td>
+                                                <td>ผู้อำนวยการโรงเรียน</td>
                                                 <td>
                                                     <div class="form-group">
                                                 <div class="custom-control custom-switch">
@@ -308,10 +334,10 @@
                                                 <td>Thanchanok.t</td>
                                                 <td>ธัญชนก ทองมาก</td>
                                                 <td>Thanchanok.t@gmail.com</td>
-                                                <td>Administrator</td>
+                                                <td>Admin</td>
                                                 <td></td>
-                                                <td>Owner Area</td>
                                                 <td></td>
+                                                <td>Admin</td>
                                                 <td>
                                                     <div class="form-group">
                                                 <div class="custom-control custom-switch">
@@ -335,10 +361,10 @@
                                                 <td>Warit.a</td>
                                                 <td>วริศร์ เอี่ยมอากาศ</td>
                                                 <td>Warit.a@gmail.com</td>
-                                                <td>User</td>
+                                                <td>Officer</td>
                                                 <td>Zone A</td>
-                                                <td>Admin</td>
-                                                <td>Admin</td>
+                                                <td></td>
+                                                <td>Officer</td>
                                                 <td>
                                                     <div class="form-group">
                                                 <div class="custom-control custom-switch">

@@ -160,11 +160,10 @@
                         </li>
                         <li class="nav-small-cap"><i class="mdi mdi-dots-horizontal"></i> <h3 class="hide-menu">ระบบ</h3></li>
                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="UserList.html" aria-expanded="false"><i class="mdi mdi-account"></i><span class="hide-menu">การจัดการผู้ใช้</span></a></li>
-                       <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="PermissionList.html" aria-expanded="false"><i class="mdi mdi-account-network"></i><span class="hide-menu">การจัดการสิทธิ์อนุมัติ</span></a></li>
                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="CategoryList.html" aria-expanded="false"><i class="mdi mdi-apps"></i><span class="hide-menu">การจัดการหมวดหมู่ </span></a></li>
                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="ModuleList.html" aria-expanded="false"><i class="mdi mdi-arrange-bring-forward"></i><span class="hide-menu">การจัดการโมดูล</span></a></li>
                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="PermissionList.html" aria-expanded="false"><i class="mdi mdi-account-convert"></i><span class="hide-menu">การจัดการสิทธิ์</span></a></li>
-                       <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="MudulePermissionList.html" aria-expanded="false"><i class="mdi mdi-arrow-up-bold-circle"></i><span class="hide-menu">การจัดการกลุ่มสิทธิ์์</span></a></li>
+                       
                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="SafetyRouteDocList.html" aria-expanded="false"><i class="mdi mdi-menu"></i><span class="hide-menu">การจัดการผู้อนุมัติเอกสาร</span></a></li>
                        <li class="nav-small-cap"><i class="mdi mdi-dots-horizontal"></i> <h3 class="hide-menu">ระบบความเสี่ยง</h3></li>
                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="SurveillityList.html" aria-expanded="false"><i class="mdi mdi-arrow-up-bold-circle"></i><span class="hide-menu">การจัดการอัตราการสำรวจ</span></a></li>
@@ -244,8 +243,8 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>Admin</td>
-                                                <td>Admin</td>
+                                                <td>Ministry</td>
+                                                <td>กระทรวง</td>
                                                 <td>15/03/2021</td>
                                                 <td>Admin</td>
                                                 <td>15/03/2021</td>
@@ -254,12 +253,13 @@
                                                 <td>
                                                   <a href="PermissionEdit.html"   data-toggle="tooltip" data-placement="top" title="แก้ไข"><i class="mdi mdi-table-edit" style="color: blue; font-size:20px;"></i></a>|
                                                   <a href="PermissionDetail.html" data-toggle="tooltip" data-placement="top" title="รายละเอียด"><i class="mdi mdi-menu" style="color:darkcyan; font-size:20px;"></i></a> |
-                                                  <a href="PermissionDelete.html"data-toggle="tooltip" data-placement="top" title="ลบ"><i class="mdi mdi-delete-forever"style="color:red; font-size:20px;"></i></a>
+                                                  <a href="PermissionDelete.html"data-toggle="tooltip" data-placement="top" title="ลบ"><i class="mdi mdi-delete-forever"style="color:red; font-size:20px;"></i></a> |
+                                                  <a href="MudulePermissionList.html"data-toggle="tooltip" data-placement="top" title="เพิ่มโมดูลในสิทธิ์"><i class="fas fa-cogs" style="color:back; font-size:20px;"></i></a>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>User</td>
-                                                <td>User</td>
+                                                <td>OwnerArea</td>
+                                                <td>ผู้ดูแลพื้นที่</td>
                                                 <td>15/03/2021</td>
                                                 <td>Admin</td>
                                                 <td>15/03/2021</td>
@@ -268,10 +268,55 @@
                                                 <td>
                                                   <a href="PermissionEdit.html"   data-toggle="tooltip" data-placement="top" title="แก้ไข"><i class="mdi mdi-table-edit" style="color: blue; font-size:20px;"></i></a>|
                                                   <a href="PermissionDetail.html" data-toggle="tooltip" data-placement="top" title="รายละเอียด"><i class="mdi mdi-menu" style="color:darkcyan; font-size:20px;"></i></a> |
-                                                  <a href="PermissionDelete.html"data-toggle="tooltip" data-placement="top" title="ลบ"><i class="mdi mdi-delete-forever"style="color:red; font-size:20px;"></i></a>
+                                                  <a href="PermissionDelete.html"data-toggle="tooltip" data-placement="top" title="ลบ"><i class="mdi mdi-delete-forever"style="color:red; font-size:20px;"></i></a> |
+                                                  <a href="MudulePermissionList.html"data-toggle="tooltip" data-placement="top" title="เพิ่มโมดูลในสิทธิ์"><i class="fas fa-cogs" style="color:back; font-size:20px;"></i></a>
                                                 </td>
                                             </tr>
-                                             
+                                            <tr>
+                                                <td>Director</td>
+                                                <td>ผู้อำนวยการ</td>
+                                                <td>15/03/2021</td>
+                                                <td>Admin</td>
+                                                <td>15/03/2021</td>
+                                                <td>Admin</td>
+                                                
+                                                <td>
+                                                  <a href="PermissionEdit.html"   data-toggle="tooltip" data-placement="top" title="แก้ไข"><i class="mdi mdi-table-edit" style="color: blue; font-size:20px;"></i></a>|
+                                                  <a href="PermissionDetail.html" data-toggle="tooltip" data-placement="top" title="รายละเอียด"><i class="mdi mdi-menu" style="color:darkcyan; font-size:20px;"></i></a> |
+                                                  <a href="PermissionDelete.html"data-toggle="tooltip" data-placement="top" title="ลบ"><i class="mdi mdi-delete-forever"style="color:red; font-size:20px;"></i></a> |
+                                                  <a href="MudulePermissionList.html"data-toggle="tooltip" data-placement="top" title="เพิ่มโมดูลในสิทธิ์"><i class="fas fa-cogs" style="color:back; font-size:20px;"></i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Admin</td>
+                                                <td>Admin</td>
+                                                <td>15/03/2021</td>
+                                                <td>Admin</td>
+                                                <td>15/03/2021</td>
+                                                <td>Admin</td>
+                                                
+                                                <td>
+                                                  <a href="PermissionEdit.html"   data-toggle="tooltip" data-placement="top" title="แก้ไข"><i class="mdi mdi-table-edit" style="color: blue; font-size:20px;"></i></a>|
+                                                  <a href="PermissionDetail.html" data-toggle="tooltip" data-placement="top" title="รายละเอียด"><i class="mdi mdi-menu" style="color:darkcyan; font-size:20px;"></i></a> |
+                                                  <a href="PermissionDelete.html"data-toggle="tooltip" data-placement="top" title="ลบ"><i class="mdi mdi-delete-forever"style="color:red; font-size:20px;"></i></a> |
+                                                  <a href="MudulePermissionList.html"data-toggle="tooltip" data-placement="top" title="เพิ่มโมดูลในสิทธิ์"><i class="fas fa-cogs" style="color:back; font-size:20px;"></i></a>
+                                                </td>
+                                            </tr>
+                                             <tr>
+                                                <td>Officer</td>
+                                                <td>Officer</td>
+                                                <td>15/03/2021</td>
+                                                <td>Admin</td>
+                                                <td>15/03/2021</td>
+                                                <td>Admin</td>
+                                                
+                                                <td>
+                                                  <a href="PermissionEdit.html"   data-toggle="tooltip" data-placement="top" title="แก้ไข"><i class="mdi mdi-table-edit" style="color: blue; font-size:20px;"></i></a>|
+                                                  <a href="PermissionDetail.html" data-toggle="tooltip" data-placement="top" title="รายละเอียด"><i class="mdi mdi-menu" style="color:darkcyan; font-size:20px;"></i></a> |
+                                                  <a href="PermissionDelete.html"data-toggle="tooltip" data-placement="top" title="ลบ"><i class="mdi mdi-delete-forever"style="color:red; font-size:20px;"></i></a> |
+                                                  <a href="MudulePermissionList.html"data-toggle="tooltip" data-placement="top" title="เพิ่มโมดูลในสิทธิ์"><i class="fas fa-cogs" style="color:back; font-size:20px;"></i></a>
+                                                </td>
+                                            </tr>
                                            
                                         </tbody>
                                   
