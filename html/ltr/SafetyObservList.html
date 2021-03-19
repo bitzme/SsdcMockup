@@ -160,11 +160,9 @@
                         </li>
                         <li class="nav-small-cap"><i class="mdi mdi-dots-horizontal"></i> <h3 class="hide-menu">ระบบ</h3></li>
                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="UserList.html" aria-expanded="false"><i class="mdi mdi-account"></i><span class="hide-menu">การจัดการผู้ใช้</span></a></li>
-                       <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="PermissionList.html" aria-expanded="false"><i class="mdi mdi-account-network"></i><span class="hide-menu">การจัดการสิทธิ์อนุมัติ</span></a></li>
                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="CategoryList.html" aria-expanded="false"><i class="mdi mdi-apps"></i><span class="hide-menu">การจัดการหมวดหมู่ </span></a></li>
                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="ModuleList.html" aria-expanded="false"><i class="mdi mdi-arrange-bring-forward"></i><span class="hide-menu">การจัดการโมดูล</span></a></li>
                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="PermissionList.html" aria-expanded="false"><i class="mdi mdi-account-convert"></i><span class="hide-menu">การจัดการสิทธิ์</span></a></li>
-                       <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="MudulePermissionList.html" aria-expanded="false"><i class="mdi mdi-arrow-up-bold-circle"></i><span class="hide-menu">การจัดการกลุ่มสิทธิ์์</span></a></li>
                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="SafetyRouteDocList.html" aria-expanded="false"><i class="mdi mdi-menu"></i><span class="hide-menu">การจัดการผู้อนุมัติเอกสาร</span></a></li>
                        <li class="nav-small-cap"><i class="mdi mdi-dots-horizontal"></i> <h3 class="hide-menu">ระบบความเสี่ยง</h3></li>
                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="SurveillityList.html" aria-expanded="false"><i class="mdi mdi-arrow-up-bold-circle"></i><span class="hide-menu">การจัดการอัตราการสำรวจ</span></a></li>
@@ -241,22 +239,26 @@
                                                 <th><h5>อัตราการสำรวจ</h5></th>
                                                 <th><h5>อัตราความถี่</h5></th>
                                                 <th><h5>ระดับความเสี่ยง</h5></th>
+                                                <th><h5>ค่าประเมิน (วัน)</h5></th>
                                                 <th><h5>รายละเอียด</h5></th>
+                                                <th><h5>สถานะ</h5></th>
                                                 <th><h5>รูปภาพ</h5></th>
                                                 <th><h5>การจัดการ</h5></th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
-                                            <td>DOG01</td>
+                                            <td>DOC01</td>
                                                 <td>Kamolthip.w</td>
                                                 <td>กมลทิพย์ เวียงวิเศษ</td>
                                                 <td>15/03/2021</td>
                                                 <td>L001 โรงเรียนบ้านป่า ชัยภูมิ</td>
                                                 <td>3</td>
                                                 <td>1</td>
-                                                <td>1 ระดับต่ำ</td>
+                                                <td>3 ระดับต่ำ</td>
+                                                <td>6</td>
                                                 <td>โต๊ะชำรุด</td>
+                                                <td>Wait</td>
                                                 <td ><a data-toggle="tooltip" data-placement="top" title="แก้ไข"><i class="fas fa-eye " style="color: blue; font-size:25px;" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo"></i></a>
                                                 </td>
                                                 <td>
@@ -266,15 +268,17 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                            <td>DOG02</td>
+                                            <td>DOC02</td>
                                                 <td>Kamolthip.w</td>
                                                 <td>กมลทิพย์ เวียงวิเศษ</td>
                                                 <td>16/03/2021</td>
                                                 <td>L002 โรงเรียนบ้านป่า ชัยภูมิ</td>
                                                 <td>1</td>
                                                 <td>2</td>
-                                                <td>2 ระดับกลาง</td>
+                                                <td>2 ระดับต่ำ</td>
+                                                <td>7</td>
                                                 <td>เก้าอี้</td>
+                                                <td>Wait</td>
                                                 <td ><a data-toggle="tooltip" data-placement="top" title="แก้ไข"><i class="fas fa-eye " style="color: blue; font-size:25px;" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo"></i></a>
                                                 </td>
                                                <td>
@@ -284,15 +288,17 @@
                                                 </td>
                                             </tr>
                                            <tr>
-                                           <td>DOG03</td>
+                                           <td>DOC03</td>
                                                 <td>Atitaya.p</td>
                                                 <td>อาทิตยา โพธิ์ทอง</td>
                                                 <td>17/03/2021</td>
                                                 <td>L003 โรงเรียนบ้านหนองนา ขอนแก่น</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>3 ระดับสูง</td>
+                                                <td>2</td>
+                                                <td>3</td>
+                                                <td>6 ระดับกลาง</td>
+                                                <td>3</td>
                                                 <td>เก้าอี้</td>
+                                                <td>Wait</td>
                                                 <td ><a data-toggle="tooltip" data-placement="top" title="แก้ไข"><i class="fas fa-eye " style="color: blue; font-size:25px;" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo"></i></a>
                                                 </td>
                                                 <td>
@@ -302,15 +308,17 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                            <td>DOG04</td>
+                                            <td>DOC04</td>
                                                 <td>Saman.k</td>
                                                 <td>สมาน เกาะจอหอ</td>
                                                 <td>17/03/2021</td>
                                                 <td>L004 โรงเรียนป่ากล้วย สุรินทร์</td>
-                                                <td>2</td>
-                                                <td>1</td>
-                                                <td>3 ระดับสูง</td>
+                                                <td>3</td>
+                                                <td>3</td>
+                                                <td>9 ระดับสูง</td>
+                                                 <td>1</td>
                                                 <td>ห้องน้ำชำรุด</td>
+                                                <td>Wait</td>
                                                 <td ><a data-toggle="tooltip" data-placement="top" title="แก้ไข"><i class="fas fa-eye " style="color: blue; font-size:25px;" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo"></i></a>
                                                 </td>
                                                 <td>
@@ -320,15 +328,17 @@
                                                 </td>
                                             </tr>
                                            <tr>
-                                           <td>DOG05</td>
+                                           <td>DOC05</td>
                                                 <td>Tippawan.m</td>
                                                 <td>ทิพวัลย์ มณีสอดแสง</td>
                                                 <td>19/03/2021</td>
                                                 <td>L005 โรงเรียนวัด แพร่</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>3 ระดับสูง</td>
+                                                <td>3</td>
+                                                <td>2</td>
+                                                <td>6 ระดับกลาง</td>
+                                                <td>3</td>
                                                 <td>สายไฟชุด</td>
+                                                <td>Wait</td>
                                                 <td ><a data-toggle="tooltip" data-placement="top" title="แก้ไข"><i class="fas fa-eye " style="color: blue; font-size:25px;" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo"></i></a>
                                                 </td>
                                                 <td>
