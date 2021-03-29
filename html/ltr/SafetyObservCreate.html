@@ -162,7 +162,8 @@
                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="UserList.html" aria-expanded="false"><i class="mdi mdi-account"></i><span class="hide-menu">การจัดการผู้ใช้</span></a></li>
                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="CategoryList.html" aria-expanded="false"><i class="mdi mdi-apps"></i><span class="hide-menu">การจัดการหมวดหมู่ </span></a></li>
                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="ModuleList.html" aria-expanded="false"><i class="mdi mdi-arrange-bring-forward"></i><span class="hide-menu">การจัดการโมดูล</span></a></li>
-                       <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="PermissionList.html" aria-expanded="false"><i class="mdi mdi-account-convert"></i><span class="hide-menu">การจัดการสิทธิ์</span></a></li>                       
+                       <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="PermissionList.html" aria-expanded="false"><i class="mdi mdi-account-convert"></i><span class="hide-menu">การจัดการสิทธิ์</span></a></li>
+                       
                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="SafetyRouteDocList.html" aria-expanded="false"><i class="mdi mdi-menu"></i><span class="hide-menu">การจัดการผู้อนุมัติเอกสาร</span></a></li>
                        <li class="nav-small-cap"><i class="mdi mdi-dots-horizontal"></i> <h3 class="hide-menu">ระบบความเสี่ยง</h3></li>
                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="SurveillityList.html" aria-expanded="false"><i class="mdi mdi-arrow-up-bold-circle"></i><span class="hide-menu">การจัดการอัตราการสำรวจ</span></a></li>
@@ -171,8 +172,11 @@
                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="SafetyLocList.html" aria-expanded="false"><i class="mdi mdi-brightness-5"></i><span class="hide-menu">การจัดการพื้นที่</span></a></li>
                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="SafetyZoneList.html" aria-expanded="false"><i class="mdi mdi-buffer"></i><span class="hide-menu">การจัดการเขตพื้นที่</span></a></li>
                       <li class="nav-small-cap"><i class="mdi mdi-dots-horizontal"></i> <h3 class="hide-menu">ข้อมูลความเสี่ยง</h3></li>
+                      <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="SafetyZoneLocList.html" aria-expanded="false"><i class="fas fa-chart-area"></i><span class="hide-menu">ข้อมูลเขตพื้นที่</span></a></li>
                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="SafetyObservList.html" aria-expanded="false"><i class="mdi mdi-checkbox-multiple-marked-outline"></i><span class="hide-menu">การแจ้งเตือนความปลอดภัย</span></a></li>
+                       <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="SafetyOwnerList.html" aria-expanded="false"><i class="fas fa-wrench"></i><span class="hide-menu">การรายงานผลการแก้ไข</span></a></li>
                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="Approval.html" aria-expanded="false"><i class="ti-star"></i><span class="hide-menu">อนุมัติการแจ้งเตือนความปลอดภัย</span></a></li>
+                       <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="SafetyList.html" aria-expanded="false"><i class="fas fa-gavel"></i><span class="hide-menu">ผลการอนุมัติ</span></a></li>
                     </ul>
                 </nav>
                 <!-- End Sidebar navigation -->
@@ -234,9 +238,9 @@
                                     <label>สถานที่</label>
                                     <select class="custom-select col-12" id="inlineFormCustomSelect">
                                         <option selected>--เลือกข้อมูล--</option>
-                                        <option value="1">L001 โรงเรียนบ้านป่า ชัยภูมิ</option>
-                                        <option value="2">L002 โรงเรียนบ้านปก ชัยภูมิ</option>
-                                        <option value="3">L003 โรงเรียนบ้านหนองนา ขอนแก่น</option>
+                                        <option value="1">อาคารC</option>
+                                        <option value="2">อาคารB</option>
+                                        <option value="3">ห้องน้ำ</option>
                                     </select>
                                 </div>
                                 <div class="form-group">
@@ -261,12 +265,9 @@
                                     <label>ระดับความเสี่ยง</label>
                                     <select class="custom-select col-12" id="inlineFormCustomSelect">
                                         <option selected>--เลือกข้อมูล--</option>
-                                        <option value="1">ระดับ 1 เสี่ยงต่ำ 9 วัน</option>
-                                        <option value="2">ระดับ 2 เสี่ยงต่ำ 7 วัน</option>
-                                        <option value="3">ระดับ 3 เสี่ยงต่ำ 6 วัน</option>
-                                        <option value="4">ระดับ 4 เสี่ยงกลาง 5 วัน</option>
-                                        <option value="6">ระดับ 6 เสี่ยงกลาง 3 วัน</option>
-                                        <option value="9">ระดับ 9 เสี่ยงสูง 1 วัน</option>
+                                        <option value="1">1 ระดับต่ำ</option>
+                                        <option value="2">2 ระดับกลาง</option>
+                                        <option value="3">3 ระดับต่ำ</option>
                                     </select>
                                 </div>
                                 <div class="form-group">
